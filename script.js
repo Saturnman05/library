@@ -46,10 +46,10 @@ function displayBooks() {
 
         const pagesElement = document.createElement("div");
         pagesElement.classList.add("book-pages");
-        pagesElement.textContent = `${book.numberOfPages} pages`;
+        pagesElement.textContent = `Amount of pages: ${book.numberOfPages}`;
 
         const isRead = document.createElement("div");
-        isRead.classList.add("book-author");
+        isRead.classList.add("book-is-read");
         isRead.textContent = book.read ? "You read this book" : "Book not read";
 
         const deleteBook = document.createElement("button");

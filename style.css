@@ -15,10 +15,16 @@
 .book-author {
     font-size: 14px;
     margin-top: 5px;
+    color: gray;
 }
 
 .book-pages {
     font-size: 14px;
     margin-top: 5px;
     font-weight: lighter;
+}
+
+.book-is-read {
+    font-size: 14px;
+    margin-top: 5px;
 }
